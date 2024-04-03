@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato</title>
+
+  <script src="script.js"></script>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1
+    style="position: fixed; top: 10px; right: 10px; margin: 0;"
+    onclick="theme()"
+    >🌙
+  </h1>
+  <div class="content">
+     
+    <h1>Contato</h1>
+
+    <div id="conferir_mensagem_content" class="form">
+      <h2>Dados de envio</h2>
+      <div id="conferir_mensagem">
+        <div class="input">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome">
+        </div>
+
+        <div class="input">
+          <label for="mensagem">Observações:</label>
+          <textarea type="text" id="mensagem"></textarea>
+        </div>
+
+        <button onclick="conferirMensagemWhatsApp()">Conferir</button>
+      </div>
+    </div>
+
+    <div id="enviar_mensagem_content" class="form">
+      <h2>Enviar Mensagem</h2>
+      <div id="enviar_mensagem">
+        <p>Nome: <span id="confNome"></span></p>
+        <p>Observações: <span id="confMsg"></span></p>
+        <p>Data: <span id="confDate"></span></p>
+
+        <button onclick="enviar()">Enviar Mensagem</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
