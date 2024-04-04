@@ -1,0 +1,28 @@
+.content {
+    background-color: rgb(109, 109, 109);
+    width: 20%;
+}
+
+.content h1, h2, h3, p {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.status {
+    position: absolute;
+    font-size: xxx-large;
+    margin-top: -25px;
+}
+
+.image {
+    background-color: white;
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    height: 100%;
+}

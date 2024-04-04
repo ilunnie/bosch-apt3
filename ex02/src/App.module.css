@@ -1,0 +1,34 @@
+.wrapBtns {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+
+  position: fixed;
+  top: 0;
+}
+
+.wrapPage {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  gap: 1vh;
+  padding: 10px;
+  background-color: rgb(47, 47, 47);
+}
+
+.list {
+  display: flex;
+  -webkit-box-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1920px;
+  gap: 10px
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": 1,
+    "name": "Perfume",
+    "desc": "Miguel Rousseouf",
+    "value": "100.00",
+    "image": "https://img.irroba.com.br/fit-in/600x600/filters:fill(fff):quality(80)/volarium/catalog/produtos/volarium/perfume/perfume-feminino/perfume-feminino-ch-tradicional-importado-original.jpg",
+    "categories": [
+      "Moda",
+      "Cosmetico"
+    ],
+    "status": true
+  },
+  {
+    "id": 2,
+    "name": "Colar",
+    "desc": "Jand Karno em perolas",
+    "value": "2200.00",
+    "image": "https://cdn.awsli.com.br/600x450/1537/1537341/produto/152389745/01e29e7fcc.jpg",
+    "categories": [
+      "Moda",
+      "Joias"
+    ],
+    "status": false
+  },
+  {
+    "id": 3,
+    "name": "Rei Chiquita",
+    "desc": "Figuras NUEVA/SELLADA em estoque",
+    "value": "120.40",
+    "image": "https://http2.mlstatic.com/D_NQ_NP_811342-CBT74747351418_032024-O.webp",
+    "categories": [
+      "Pelucia",
+      "Anime"
+    ],
+    "status": true
+  },
+  {
+    "id": 4,
+    "name": "Redmi Buds 4 Pro",
+    "desc": "O som que você deseja",
+    "value": "359.99",
+    "image": "https://cdn.webshopapp.com/shops/256009/files/417973320/xiaomi-xiaomi-redmi-buds-4-pro.jpg",
+    "categories": [
+      "Eletrônicos"
+    ],
+    "status": true
+  },
+  {
+    "id": 5,
+    "name": "Camiseta de Programador",
+    "desc": "Apenas os programadores de verdade são dignos de usar",
+    "value": "74.90",
+    "image": "https://th.bing.com/th/id/R.52b3d9b900bd90764446ac0f50d788e9?rik=UbfDXkwaljIHuw&riu=http%3a%2f%2fmontink.s3.amazonaws.com%2fproduto_imagens%2f157445%2fphpG5nfXx.png&ehk=c3JZy%2fsGnHfcWdC7pQfOpFExLJ%2f7%2b1jvGe8yQ3GDYQQ%3d&risl=&pid=ImgRaw&r=0",
+    "categories": [
+      "Moda"
+    ],
+    "status": true
+  }
+]
