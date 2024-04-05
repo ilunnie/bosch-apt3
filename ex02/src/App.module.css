@@ -32,3 +32,24 @@
   max-width: 1920px;
   gap: 10px
 }
+
+.pageNavigator {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-inline: 40%;
+}
+
+.pageNavigator button {
+  font-size: x-large;
+}
+
+.errorContent {
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+}
+
+.errorContent img {
+  width: 75%;
+}
